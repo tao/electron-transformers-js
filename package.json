@@ -18,7 +18,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "@xenova/transformers": "^2.6.1"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.4.2",
@@ -28,5 +29,8 @@
     "@electron-forge/maker-zip": "^6.4.2",
     "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
     "electron": "26.2.3"
+  },
+  "overrides": {
+    "protobufjs": "^7.2.4"
   }
 }
